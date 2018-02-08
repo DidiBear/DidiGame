@@ -33,7 +33,7 @@ public class TestGame implements Window {
 	public void event(double delta) {
 		// Move things
 		
-		int speed = 120; // = 100 pixel/second
+		int speed = 120; // = 120 pixel/second
 		redQuad = redQuad.translate((int)(speed * delta), 0);
 		
 		window.event(delta);
